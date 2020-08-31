@@ -1,5 +1,5 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.134.1/containers/codespaces-linux/.devcontainer/Dockerfile
-FROM FROM debian:10
+FROM debian:10
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
